@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const token = '7261465427:AAGmeZKIc19ljXrK2C1OJR4WhR_9KZQiny0';
-const hostURL = 'https://basaaska.vercel.app';
+const hostURL = 'https://basaaska-oocud33s-projects.vercel.app/';
 
 const bot = new TelegramBot(token);
 bot.setWebHook(`${hostURL}/bot${token}`);
